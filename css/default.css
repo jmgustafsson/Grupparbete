@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    font-family: helvetica, times new roman, fantasy,;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    font-size: 50px;
+    padding: 30px ;
+    max-width: 100%;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-color: black;
+    text-shadow: 0px 3px 5px black;
+    font-weight: 800;
+    border-top-style: none;
+    border-bottom-style: none;
+}
+.aletter {
+    font-weight: 900;
+    font-size: 55px;
+}
+
+
