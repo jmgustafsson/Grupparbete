@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     display: flex;
     font-family: helvetica, times new roman, fantasy,;
@@ -16,12 +17,33 @@ header {
     border-color: black;
     text-shadow: 0px 3px 5px black;
     font-weight: 800;
-    border-top-style: none;
-    border-bottom-style: none;
 }
+
 .aletter {
     font-weight: 900;
     font-size: 55px;
 }
 
+nav ul {
+    display: flex;
+    border-top: solid;
+    border-bottom: double;
+    background-color: steelblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
 
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
