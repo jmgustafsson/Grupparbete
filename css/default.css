@@ -45,24 +45,22 @@ nav a:hover {
     color: cornflowerblue;
 }
 
-hr {
-    height: 1px;
-    color: #2a5aa8;
-}
-
-footer {
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-
-.main {
+/* .main {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 0.5fr 1fr 1fr;
     justify-items: center;
+} */
+
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    height: 100px;
 }
 
 .round-fig {
