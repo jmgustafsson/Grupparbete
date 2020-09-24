@@ -1,0 +1,40 @@
+
+#gruppbild{
+    display: flex;
+    justify-content: center;
+    border: 4px ridge steelblue;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#porträtt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+#infotext{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    /* padding: 10px 10px 0px 10px;
+    bottom: 0; */
+    
+    background-color: steelblue;
+    color: white;
+    height: 100px;
+
+    font-size: 16px;
+
+}
+.button{
+float: right;
+
+}
