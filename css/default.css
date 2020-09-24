@@ -54,3 +54,84 @@ nav a:hover {
     background-color: steelblue;
     height: 100px;
 }
+
+hr {
+    height:1px;
+    color:#2a5aa8;
+  }
+  footer {
+    /*background-color:#103960;*/
+    color:white;
+  }
+  
+  footer a {
+    color:white;
+  }
+  
+  .main {
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:0.5fr 1fr 1fr;
+    justify-items:center;
+    
+    
+  }
+  
+  .round-fig {
+       border-radius:100%;
+       background-color:yellow;
+       width:90px;
+       height:90px;
+       place-self:center;
+       justify-self:center;
+  }
+  .button {
+    width:200px;
+    height:50px;
+    border-radius:25px;
+    background-color:#3d7ab3;
+    color:white;
+    place-self:center;
+  }
+  .contact {
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:0.3fr 0.3fr 1fr;
+    justify-items:center;
+  }
+  
+  .contact ul {
+    list-style-type:none;
+    place-self:center;
+  }
+  
+  .contact h2 {
+    place-self:center;
+  }
+  
+  .contact p {
+    place-self:center;
+  }
+  
+  .contact ul li a {
+    text-decoration:none;
+  }
+  
+  
+  
+  .socialmedia ul {
+    list-style-type:none;
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:repeat(6, 90px);
+    justify-content:end;
+    
+  }
+  
+  .socialmedia ul li a {
+   text-decoration:none;
+  }
+  
+  [class*="fa"] {
+    color:black;
+  }
