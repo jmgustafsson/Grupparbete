@@ -47,3 +47,13 @@ nav a {
 nav a:hover {
     color: cornflowerblue;
 }
+
+.footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: steelblue;
+    height: 100px;
+}
