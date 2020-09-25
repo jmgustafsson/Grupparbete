@@ -11,7 +11,7 @@ body {
     "header header header"
     "nav nav nav"
     "main main main"
-    "section1 section2 section3"
+    "img1 img2 img3"
     "footer footer footer"
 }
 
@@ -74,16 +74,22 @@ main {
     background-image: url(../img/house.png);
 }
 
-.section1 {
-    grid-area: section1;
+.img1 {
+    grid-area: img1;
+    height: 350px;
+    margin: 30px;
 }
 
-.section2 {
-    grid-area: section2;
+.img2 {
+    grid-area: img2;
+    height: 350px;
+    margin: 30px;
 }
 
-.section3 {
-    grid-area: section3;
+.img3 {
+    grid-area: img3;
+    height: 350px;
+    margin: 30px;
 }
 
 footer {
