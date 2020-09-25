@@ -5,12 +5,14 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(5, auto);
     grid-template-areas: 
-    "header header"
-    "nav nav"
-    "footer footer"
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "section1 section2 section3"
+    "footer footer footer"
 }
 
 header {
@@ -31,9 +33,11 @@ header {
     font-size: 55px;
 }
 
-nav ul {
+nav {
     grid-area: nav;
-    width: 1200px;
+}
+
+nav ul {
     display: flex;
     border-top: solid;
     border-bottom: double;
@@ -59,6 +63,24 @@ nav a:hover {
 
 main {
     grid-area: main;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+    background-image: url(../img/house.png);
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
 }
 
 footer {
