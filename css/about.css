@@ -7,6 +7,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: steelblue;
+    font-family: helvetica, times new roman, fantasy, ;
     color: white;
     font-size: 50px;
     padding: 30px;
