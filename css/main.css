@@ -74,7 +74,7 @@ nav a:hover {
     gap: 20px;
     width: var(--main-width);
     margin: var(--main-margin);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(9, auto);
     grid-template-areas: 
     "main main main"
@@ -177,4 +177,27 @@ footer {
     grid-area: 4/1/5/2;
     background-color: var(--main-bg-color);
     color: var(--second-text-color);
+}
+
+/* small desktop */
+@media screen and (max-width: 1200px) {
+    .grid-container2 {
+        width: 900px;
+        margin: var(--main-margin);
+    } 
+    
+    .section1 {
+        height: 180px;
+        width: 250px;
+        margin: var(--main-margin);
+        color: var(--second-text-color);
+    }
+    
+    .section2 {
+        background-image: url(../img/house2.jpeg);
+    }
+    
+    .section3 {
+        background-image: url(../img/house3.jpeg);
+    }
 }
