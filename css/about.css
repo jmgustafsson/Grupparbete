@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    max-width: 100%;
+    text-shadow: 0px 3px 5px black;
+    font-weight: 800;
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    header {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    header {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 320px) {
+    header {
+        font-size: 15px;
+    }
+}
+
+.aletter {
+    font-weight: 900;
+    font-size: 55px;
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .aletter {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .aletter {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .aletter {
+        font-size: 20px;
+    }
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    border-top: solid;
+    border-bottom: double;
+    background-color: steelblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    bottom: 0;
+}
+@media screen and (max-width: 320px) {
+    nav ul {
+        display: flex;
+        font-size: 10px;
+    }
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 35px;
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    nav a {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    nav a {
+        display: flex;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+    nav a {
+        display: list-item;
+        justify-content: center;
+        font-size: 10px;
+    }
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+.section1container {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .section1container {
+        display: grid;
+        grid-template-rows: 0.1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 320px) {
+    .section1container {
+        display: grid;
+        grid-template-rows: 0.1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.section1img {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+    width: 250%;
+    border-bottom: double black;
+    border-width: 15px;
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .section1img {
+        height: 0%;
+        border: unset;
+    }
+}
+@media screen and (max-width: 320px) {
+    .section1img {
+        width: 0px;
+        border: unset;
+    }
+}
+
+.section2container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 0.1fr 0.2fr 0.2fr 0.1fr 0.1fr 0.1fr 0.2fr 0.2fr 0.2fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .section2container {
+        display: grid;
+        grid-template-columns: 0.1fr 0.2fr 0.2fr 0.1fr 0.1fr 0.1fr 0.2fr 0.2fr 0.2fr 0.1fr;
+        grid-template-rows: 0.1fr;
+    }
+}
+@media screen and (max-width: 320px) {
+    .section2container {
+        display: grid;
+        grid-template-columns: 0.1fr 0.2fr 0.2fr 0.1fr 0.1fr 0.1fr 0.2fr 0.2fr 0.2fr 0.1fr;
+        grid-template-rows: 0.1fr;
+    }
+}
+
+.section2text1 {
+    display: flex;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: unset -1px 0px 1px silver;
+    grid-column: 2 / 10;
+    grid-row: 2 / 2;
+    background-color: white;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+    padding: 5px;
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: thin black;
+    border-right: thin black;
+    border-width: 5px;
+    border-radius: 50px;
+    box-shadow: unset 0px 3px 15px black;
+}
+@media screen and (max-width: 1440px) and (min-width: 960px) {
+    .section2text {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 960px) {
+    .section2text {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    .section2text {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .section2text {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .section2text {
+        grid-column: 1 / 13;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .section2text {
+        width: 100%;
+        border-radius: 0px;
+        grid-column: 1 / 13;
+        grid-row: 1 / 2;
+        font-size: 20px;
+    }
+}
+
+.section1image {
+    grid-column: 6;
+    grid-row: 1;
+    margin: 0px;
+    width: 300px;
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .section1image {
+        grid-column: 6;
+        grid-row: 1;
+        margin: 0 auto;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .section1image {
+        grid-column: 6;
+        grid-row: 1;
+        width: 1;
+        width: 0;
+    }
+}
+
+.pigfeet1 {
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    .pigfeet1 {
+        width: 0;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .pigfeet1 {
+        width: 0;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .pigfeet1 {
+        width: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .pigfeet1 {
+        width: 0;
+    }
+}
+
+.pigfeet2 {
+    grid-column: 10;
+    grid-row: 2 / 3;
+}
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    .pigfeet2 {
+        width: 0;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .pigfeet2 {
+        width: 0;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .pigfeet2 {
+        width: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .pigfeet2 {
+        width: 0;
+    }
+}
