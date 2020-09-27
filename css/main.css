@@ -12,6 +12,7 @@
 body {
     box-sizing: border-box;  
     margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .grid-container {
@@ -79,6 +80,7 @@ nav a:hover {
     "main main main"
     "article1 article1 article1"
     "section1 section2 section3"
+    "article2 article2 article2"
     "footer footer footer"
 }
 
@@ -99,59 +101,76 @@ main {
 .article1 {
     grid-area: article1;
     color: var(--main-text-color);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
 }
 
 
 .section1 {
     grid-area: section1;
     height: 250px;
-    width: 300px;
+    width: 320px;
     margin: var(--main-margin);
     color: var(--second-text-color);
     background-image: url(../img/house4.jpeg);
     background-size: cover;
     text-align: center;
     border: 1px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .section2 {
     grid-area: section2;
     height: 250px;
-    width: 300px;
+    width: 320px;
     margin: var(--main-margin);
     color: var(--second-text-color);
     background-image: url(../img/house2.jpeg);
     background-size: cover;
     text-align: center;
     border: 1px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .section3 {
     grid-area: section3;
     height: 250px;
-    width: 300px;
+    width: 320px;
     margin: var(--main-margin);
     color: var(--second-text-color);
     background-image: url(../img/house3.jpeg);
     background-size: cover;
     text-align: center;
     border: 1px solid black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.button {
-    border-radius: 50px;
-    width: 150px;
-    height: 50px;
+.article2 {
+    grid-area: article2;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
     background-color: var(--main-bg-color);
     color: var(--second-text-color);
 }
 
-.button:hover {
+button {
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+    color: var(--second-text-color);
+}
+
+button:hover {
     background-color: cornflowerblue;
+}
+
+.btn-2 {
+    background-color: white;
+    color: var(--main-text-color);
+}
+
+.btn-2:hover {
+    background-color: rgb(228, 228, 228);
 }
 
 footer {
