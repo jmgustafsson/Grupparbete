@@ -80,7 +80,6 @@ nav a:hover {
     "article1 article1 article1"
     "section1 section2 section3"
     "article2 article2 article2"
-    "footer footer footer"
 }
 
 main {
@@ -173,11 +172,33 @@ button:hover {
 }
 
 footer {
-    grid-area: 4/1/5/2;
-    background-color: var(--main-bg-color);
-    color: var(--second-text-color);
     margin-top: 30px;
-}
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    justify-items:center;
+    align-items:center;
+    background-color:steelblue;
+  }
+
+ #footer-text{
+    color:white;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    margin-top:20px;
+	margin-bottom:40px;
+    border-radius: 1000px;
+    background-color: #3d7ab3;
+    color: white;
+    place-self: center;
+  }
+
+  button:hover {
+    background-color:#0a63a3;
+  }
 
 /* large desktop */
 @media screen and (max-width: 1440px) {
