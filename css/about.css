@@ -407,49 +407,33 @@ nav a:hover {
 }
 
 footer {
-    text-decoration-line: none;
-    display: grid;
-    grid-template-columns: 0.2fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.2fr;
-    grid-template-rows: 0.1fr;
-}
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:1fr;
+    grid-column:1 / 5;
+    grid-row: 7 / 8;
+    justify-items:center;
+    align-items:center;
+    background-color:steelblue;
+  }
 
-.topmeny {
-    bottom: 0;
-    grid-column: 1 / 13;
-    grid-row: 1;
-    height: 92%;
-    padding: 0px;
-    text-decoration-line: none;
-    text-align: center;
-    background-color: steelblue;
-    color: black;
-    border-top: double black;
-    border-width: 5px;
-}
+ #footer-text{
+    color:white;
+  }
 
-.omoss {
-    letter-spacing: 5px;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 0px 2px 5px silver;
-    background-color: white;
-    margin: 0 auto;
-    padding: 5px;
+  button {
     width: 200px;
-    border-top: double;
-    border-bottom: double;
-    border-left: double gold;
-    border-right: double gold;
-    border-width: 5px;
-    border-bottom-width: 1px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-}
+    height: 50px;
+    margin-top:20px;
+	margin-bottom:40px;
+    border-radius: 1000px;
+    background-color: #3d7ab3;
+    color: white;
+    place-self: center;
+  }
 
-.omoss:hover {
-    background-color: silver;
-    text-shadow: 0px 2px 2px white;
-}
+  button:hover {
+    background-color:#0a63a3;
 
 /* MEDIA / MEDIA / MEDIA / MEDIA / MEDIA */
 
