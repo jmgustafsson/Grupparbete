@@ -418,6 +418,9 @@ footer {
   }
 
  #footer-text{
+    margin-top: 17px;
+    padding: 0px;
+    text-align: center; 
     color:white;
   }
 
