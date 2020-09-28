@@ -71,7 +71,6 @@ nav a:hover {
 .grid-container2 {
     grid-area: 3/1/4/2;
     display: grid;
-    gap: 20px;
     width: var(--main-width);
     margin: var(--main-margin);
     grid-template-columns: repeat(3, auto);
@@ -109,7 +108,7 @@ main {
 .section1 {
     grid-area: section1;
     height: 250px;
-    width: 320px;
+    width: 290px;
     margin: var(--main-margin);
     color: var(--second-text-color);
     background-image: url(../img/house4.jpeg);
@@ -121,7 +120,7 @@ main {
 .section2 {
     grid-area: section2;
     height: 250px;
-    width: 320px;
+    width: 290px;
     margin: var(--main-margin);
     color: var(--second-text-color);
     background-image: url(../img/house2.jpeg);
@@ -133,7 +132,7 @@ main {
 .section3 {
     grid-area: section3;
     height: 250px;
-    width: 320px;
+    width: 290px;
     margin: var(--main-margin);
     color: var(--second-text-color);
     background-image: url(../img/house3.jpeg);
@@ -177,27 +176,57 @@ footer {
     grid-area: 4/1/5/2;
     background-color: var(--main-bg-color);
     color: var(--second-text-color);
+    margin-top: 30px;
 }
 
 /* small desktop */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     .grid-container2 {
         width: 900px;
+    } 
+
+    .article1 {
+        font-size: 20px;
+    }
+
+    .article2 {
+        font-size: 17px;
+    }
+    
+    .section1 {
+        height: 180px;
+        width: 250px;
+    }
+    
+    .section2 {
+        height: 180px;
+        width: 250px;
+    }
+    
+    .section3 {
+        height: 180px;
+        width: 250px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768) {
+    .grid-container2 {
         margin: var(--main-margin);
     } 
     
     .section1 {
         height: 180px;
         width: 250px;
-        margin: var(--main-margin);
-        color: var(--second-text-color);
     }
     
     .section2 {
-        background-image: url(../img/house2.jpeg);
+        height: 180px;
+        width: 250px;
     }
     
     .section3 {
-        background-image: url(../img/house3.jpeg);
+        height: 180px;
+        width: 250px;
     }
 }
