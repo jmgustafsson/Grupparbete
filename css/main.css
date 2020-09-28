@@ -74,7 +74,7 @@ nav a:hover {
     width: var(--main-width);
     margin: var(--main-margin);
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(9, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas: 
     "main main main"
     "article1 article1 article1"
@@ -180,10 +180,16 @@ footer {
 }
 
 /* small desktop */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
     .grid-container2 {
         width: 900px;
     } 
+
+    main {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 500px;
+    }
 
     .article1 {
         font-size: 20px;
@@ -210,23 +216,47 @@ footer {
 }
 
 /* mobile */
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     .grid-container2 {
-        margin: var(--main-margin);
-    } 
-    
+        width: 768px;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas: 
+        "main"
+        "article1"
+        "section1" 
+        "section2" 
+        "section3"
+        "article2"
+        "footer";
+    }
+
+    main {
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .article1 {
+        padding: 0 30px;
+    }
+
     .section1 {
-        height: 180px;
-        width: 250px;
+        height: 200px;
+        width: 600px;
     }
     
     .section2 {
-        height: 180px;
-        width: 250px;
+        height: 200px;
+        width: 600px;
     }
     
     .section3 {
-        height: 180px;
-        width: 250px;
+        height: 200px;
+        width: 600px;
+    }
+
+    .article2 {
+        grid-area: article2;
+        font-size: 15px;
     }
 }
