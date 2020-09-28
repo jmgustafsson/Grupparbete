@@ -1,4 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.content {
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:repeat(auto,1fr);
+  }
