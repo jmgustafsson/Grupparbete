@@ -194,10 +194,6 @@ footer {
     .article1 {
         font-size: 20px;
     }
-
-    .article2 {
-        font-size: 17px;
-    }
     
     .section1 {
         height: 180px;
@@ -212,6 +208,32 @@ footer {
     .section3 {
         height: 180px;
         width: 250px;
+    }
+
+    .article2 {
+        font-size: 17px;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 960px) {
+    .grid-container2 {
+        width: 768px;
+    }
+
+    .section1 {
+        height: 180px;
+        width: 220px;
+    }
+    
+    .section2 {
+        height: 180px;
+        width: 220px;
+    }
+    
+    .section3 {
+        height: 180px;
+        width: 220px;
     }
 }
 
