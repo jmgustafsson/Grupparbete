@@ -31,7 +31,7 @@ body {
     margin:0px;
     padding:0px;
   }
-  
+
   .aletter {
     font-weight: 900;
     font-size: 55px;
@@ -64,3 +64,37 @@ body {
     font-family: monospace;
     font-size: 30px;
   }
+
+  .box-section-1 {
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:repeat(3,1fr);
+    grid-column:1 / 5;
+    grid-row:4 / 5;
+    grid-gap:30px;
+  }
+
+  .box-section-2 {
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:repeat(3,1fr);
+    grid-column:1 / 5;
+    grid-row: 6 / 7;
+    grid-gap:30px;
+    justify-items:center;
+  }
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9 {
+  text-align:center;
+  padding:20px;
+  box-shadow:0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  margin:20px 40px;
+}
