@@ -121,3 +121,17 @@ footer {
  #footer-text{
     color:white;
   }
+
+  button {
+    width: 200px;
+    height: 50px;
+    border-radius: 1000px;
+    background-color: #3d7ab3;
+    color: white;
+    place-self: center;
+  }
+
+  button:hover {
+    background-color:#0a63a3;
+  }
+      
