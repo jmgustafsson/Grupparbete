@@ -5,7 +5,6 @@ body {
 
 header {
     display: flex;
-    font-family: helvetica, times new roman, fantasy, ;
     justify-content: center;
     background-color: steelblue;
     color: white;
