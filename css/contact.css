@@ -44,17 +44,17 @@ nav a:hover {
     justify-content: center;
     border: 4px ridge steelblue;
     margin-top: 5px;
-    margin-bottom: 20px;
+    /* margin-bottom: 10px; */
     padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 #porträtt{
-    margin-top: 40px;
+    margin: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    font-family: heuristica, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 18px;
     padding: 10px;
     text-align: center ;
@@ -70,6 +70,10 @@ nav a:hover {
 
 #formular{
     border: 4px ridge steelblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    padding-left: 20px;
+    margin: 20px;
+
 }
 
 /* #infotext{
