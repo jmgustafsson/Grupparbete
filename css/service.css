@@ -47,7 +47,7 @@ body {
     display: flex;
     border-top: solid;
     border-bottom: double;
-    background-color: var(--main-bg-color);
+    background-color:steelblue;
     list-style-type: none;
     margin: 0;
     padding: 0;
