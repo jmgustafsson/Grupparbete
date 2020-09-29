@@ -1,24 +1,3 @@
 # Grupparbete
 
-Kunskapskontroll 3
-Verksamhetsbeskrivning:
-Vi är ett familjeföretag som säljer fastigheter: Af Svinhufvud. 
-Vi köper renoveringsprojekt och säljer dem för orimliga summor. 
-
-Uppgifter:
-
-Gemensam kod:
-Dmirtri - header
-John - navbar
-Clara/Josef - Footer
-
-hemsidan - john
-anställda/kontakt - clara
-om/historia - dmitri
-tjänster - josef
-
-Grafisk profil:
-Våra stilval ska generera seriositet, lugn, trygghet och ärlighet.
-Vi använder oss mycket av blått med vit text för att vara förtroendeingivande, 
-skuggor för djup och många genvägar och tjänster erbjuds i den enkla sidan för att
-kunderna ska känna sig omhändertagna och servade. 
+Uppgiftsfördelning står i redosvisning upp3.txt
