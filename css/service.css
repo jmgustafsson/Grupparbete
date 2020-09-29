@@ -136,6 +136,9 @@ footer {
 
  #footer-text{
     color:white;
+    text-align: center;
+    margin-top: 17px;
+    padding: 0px;
   }
 
   button {
