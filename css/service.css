@@ -42,7 +42,7 @@ body {
     grid-row:2 / 3;
   }
   
-  nav ul {
+  /* nav ul {
     display:grid;
     grid-template-rows:auto;
     grid-template-columns:repeat(4,1fr);
@@ -63,8 +63,27 @@ body {
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
-  }
+  } */
 
+  nav ul {
+    display: flex;
+    border-top: solid;
+    border-bottom: double;
+    background-color: steelblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
   .box-section-1 {
     display:grid;
     grid-template-rows:auto;
