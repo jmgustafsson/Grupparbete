@@ -67,6 +67,8 @@ nav a:hover {
 }
 
 
+
+
 #formular{
     border: 4px ridge steelblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
@@ -88,7 +90,6 @@ nav a:hover {
 }
 
 #sociala{
-
     border: 4px ridge steelblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     height: 20px;
@@ -133,5 +134,24 @@ footer {
   
 
 
+/* Ipad */
+@media screen and (max-width: 960px) {
+    #porträtt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+    }
+#photo1,
+#photo2,
+#photo3,
+#photo4{
+    width: 225px;
+    border: 4px ridge pink;
+}
 
+#formular{
+    height: 200px;
+}
+
+}
