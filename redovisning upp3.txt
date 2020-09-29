@@ -4,6 +4,12 @@ Vi är ett familjeföretag som säljer fastigheter: Af Svinhufvud.
 Vi köper renoveringsprojekt och säljer dem för orimliga summor. 
 
 Uppgifter:
+
+Gemensam kod:
+Dmirtri - header
+John - navbar
+Clara/Josef - Footer
+
 hemsidan - john
 anställda/kontakt - clara
 om/historia - dmitri
