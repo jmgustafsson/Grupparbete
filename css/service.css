@@ -99,6 +99,28 @@ body {
   margin:20px 40px;
 }
 
+#bg-img2 {
+  grid-row-start:5;
+  grid-row-end:6;
+  grid-column-start:1;
+  grid-column-end:5;
+width: 100%;
+}
+
+#bg-img1 {
+grid-row-start:3;
+grid-row-end:4;
+grid-column-start:1;
+grid-column-end:5;
+}
+
+#bg-img1 img {
+width:100%;
+}
+
+#bg-img2 img {
+width:100%;
+}
 footer {
     display:grid;
     grid-template-rows:auto;
