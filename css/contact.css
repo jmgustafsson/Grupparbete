@@ -21,7 +21,6 @@ nav ul {
     padding: 0;
     justify-content: center;
 }
-
 nav a {
     text-decoration: none;
     display: block;
@@ -30,11 +29,9 @@ nav a {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
 }
-
 nav a:hover {
     color: cornflowerblue;
 }
-
 
 
 #gruppbild{
@@ -71,23 +68,22 @@ nav a:hover {
 #formular{
     border: 4px ridge steelblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    padding-left: 20px;
+    height: 140px;
+    padding: 20px 20px;
     margin: 20px;
-
-}
-
-/* #infotext{
     display: flex;
     flex-direction: row;
+    align-self: center;
     justify-content: space-around;
-    font-family: heuristica, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    margin: 10px 0px;
-    
-} */
 
+}
+.signupbtn{
+    width: 120px;
+    height: 40px;
+    margin-top:20px;
+	margin-bottom:40px;
 
-
+}
 footer {
     display:grid;
     grid-template-rows:auto;
@@ -117,3 +113,31 @@ footer {
   button:hover {
     background-color:#0a63a3;
   }
+/* #form1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#form2 {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* submit:hover {
+    background-color:#0a63a3;
+    color:white;
+  } */
+
+
+/* #infotext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: heuristica, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 10px 0px;
+    
+} */
+
+
+
