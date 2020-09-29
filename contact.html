@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/default.css">
+    <!-- <link rel="stylesheet" href="css/default.css"> -->
     <link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    
     <title>Home</title>
 </head>
 <body>
@@ -25,23 +28,31 @@
         aboriosam enim sint dolorum, pariatur iure delectus recusandae ab officiis voluptates ea!
     </div>
 
+    <!-- <div id="historia">
+        <h3>Vi är ett stolt familjeföretag som alltid värderar ärlighet och kvalité högst</h3>
+        <h4>Det är en av grunderna till att vi fortsätter att växe som ett starkt familjeföretag, kombinerat med
+            bra servi </h4>
+        <img src="img/historia.jpg" alt="familjefoto" width="435" height="320">
+    </div> -->
+
+    <div></div>
     <div id="porträtt">
-        <div id="photo1"> 
+        <div id="photo1">Avdelningschef
             <img src="img/port1.jpg" alt="porträtt" width="225" height="290">
             Dmitri Af Svinhufvud
             <br><a href="">Dmitri@Svinhufvud.com</a>
         </div>
-        <div id="photo2">
+        <div id="photo2">Avdelningschef
             <img src="img/port2.jpg" alt="porträtt" width="225" height="290">
             John Af Svinhufvud
             <br><a href="">John@Svinhufvud.com</a>
         </div>
-        <div id="photo3">
+        <div id="photo3">Avdelningschef
             <img src="img/port3.jpg" alt="porträtt" width="225" height="290">
             Clara Af Svinhufvud
             <br><a href="">Clara@Svinhufvud.com</a>
         </div>
-        <div id="photo4">
+        <div id="photo4">Avdelningschef
             <img src="img/port4.jpg" alt="porträtt" width="225" height="290">
             Josef Af Svinhufvud
             <br><a href="">Josef@Svinhufvud.com</a>
@@ -68,15 +79,25 @@
         </div>
     </div> -->
 
-    <div id=formular>
-       <h4>Vill du bli kontaktad av någon av våra mäklare? Lämna gärna dina uppgifter nedan så återkopplar vi inom 3 arbetsdagar</h4> 
-        <div>Namn </div>
-        <div>Nummer </div>
-        <div>Email</div>
+    <div id=formular><h4>Letar du efter ditt drömhem? Vill du bli kontaktad av någon av våra mäklare?
+        <br> Lämna gärna dina uppgifter nedan så återkommer vi.</h4> 
+        <form id="form" name="form" method="POST" action=" "></form>
+        <label for="name">Namn?</label> <br>
+            <input type="name" id="Namn" name="Namn" placeholder="John Gyllenhammar"><br>
+        <label for="nmr">Telefonnummer?</label> <br>
+            <input type="tel" id="nmr" name="nmr" placeholder="+46 7312345"><br>
+        <label for="email">Email?</label> <br>
+            <input type="email" id="email" name="email" placeholder="john@gyllenhammar.com"><br> 
         
         <div>Meddelande</div>
+
         <input type="submit" value="Skicka in">
     </div>
+
+   
+
+
+    </form>
 
     <br> <br> <br> <br> <br> <br> <br> <br> <br>
     
