@@ -1,40 +1,115 @@
 
+header {
+    display: flex;
+    font-family: helvetica, times new roman, fantasy, ;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    max-width: 100%;
+    text-shadow: 0px 3px 5px black;
+    font-weight: 800;
+}
+nav ul {
+    display: flex;
+    border-top: solid;
+    border-bottom: double;
+    background-color: steelblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+}
+
+
+
 #gruppbild{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     border: 4px ridge steelblue;
     margin-top: 5px;
+    margin-bottom: 20px;
     padding: 10px;
 }
 
 #porträtt{
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
-
+    font-family: heuristica, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center ;
+}
+#photo1,
+#photo2,
+#photo3,
+#photo4{
+    width: 225px;
+    border: 4px ridge steelblue;
 }
 
-#infotext{
+
+#formular{
+    border: 4px ridge steelblue;
+}
+
+/* #infotext{
     display: flex;
     flex-direction: row;
-
-    justify-content: space-evenly;
-}
-
-footer{
-    display: flex;
-    /* padding: 10px 10px 0px 10px;
-    bottom: 0; */
-    
-    background-color: steelblue;
-    color: white;
-    height: 100px;
-
+    justify-content: space-around;
+    font-family: heuristica, 'Times New Roman', Times, serif;
     font-size: 16px;
+    margin: 10px 0px;
+    
+} */
 
-}
-.button{
-float: right;
 
-}
+
+footer {
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns:1fr;
+    grid-column:1 / 5;
+    grid-row: 7 / 8;
+    justify-items:center;
+    align-items:center;
+    background-color:steelblue;
+  }
+
+ #footer-text{
+    color:white;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    margin-top:20px;
+	margin-bottom:40px;
+    border-radius: 1000px;
+    background-color: #3d7ab3;
+    color: white;
+    place-self: center;
+  }
+
+  button:hover {
+    background-color:#0a63a3;
+  }
