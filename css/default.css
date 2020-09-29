@@ -45,13 +45,6 @@ nav a:hover {
     color: cornflowerblue;
 }
 
-/* .main {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 0.5fr 1fr 1fr;
-    justify-items: center;
-} */
-
 footer {
     display:grid;
     grid-template-rows:auto;
