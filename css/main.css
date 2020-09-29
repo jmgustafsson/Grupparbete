@@ -25,7 +25,8 @@ body {
 header {
     grid-area: 1/1/2/2;
     display: flex;
-    font-family: helvetica, times new roman, fantasy, ;
+    /* font-family: helvetica, times new roman, fantasy; */
+    font-style: italic;
     justify-content: center;
     background-color: var(--main-bg-color);
     color: var(--second-text-color);
