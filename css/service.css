@@ -128,4 +128,65 @@ footer {
   button:hover {
     background-color:#0a63a3;
   }
-      
+  
+  /* Media Queries */
+
+	  	/* Small Desktop upto 1200px */
+	  	@media screen and (max-width: 1199px) {
+		
+	      .box-section-1,
+	  	  .box-section-2 {
+	    	grid-template-columns:repeat(2,1fr);
+	  		grid-gap:10px;
+	    	  }
+	  
+	          [id*="box"] {
+	      		margin:20px 40px;
+	          }
+		
+	    	  footer {
+	    	    grid-template-columns:1fr;
+	    	  }
+	  	}
+
+	  	/* iPad upto 960px */
+
+	  	@media screen and (max-width: 959px) {
+	          [id*="box"] {
+	      		margin:20px 20px;
+	          }
+		
+	          .box-section-1,
+	    	  .box-section-2 {
+	      	    grid-template-columns:repeat(2,1fr);
+	  			grid-template-rows:1fr;
+	  			grid-gap:10px;
+	      	  }
+
+	  	  footer {
+	  	    grid-template-columns:1fr;
+	  	  }
+	  	}
+
+	  	/* Mobile up to 767px */
+	  	@media screen and (max-width: 767px) {
+		
+	    	  nav ul {
+	    	    display:grid;
+	    	    grid-template-columns:1fr;
+	    	  }
+	  
+	  
+	        [id*="box"] {
+	    		margin:20px 10px;
+	        }
+		
+	      .box-section-1,
+	  	  .box-section-2 {
+	    	    grid-template-columns:1fr;
+	    	  }
+	  
+	  	  footer {
+	  	    grid-template-columns:1fr;
+	  	  }
+	    }
