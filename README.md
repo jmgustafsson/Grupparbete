@@ -1,3 +1,3 @@
 # Grupparbete
 
-Uppgiftsfördelning står i redosvisning upp3.txt
+Uppgiftsfördelning står i redovisning upp3.txt

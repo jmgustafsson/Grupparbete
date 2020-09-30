@@ -20,7 +20,7 @@ body {
 .grid-container {
     display: grid;
     margin: 0;
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
 }
 
@@ -105,41 +105,30 @@ main {
     text-align: center;
 }
 
-
-.section1 {
-    grid-area: section1;
+.section1,
+.section2,
+.section3 {
     height: 250px;
     width: 290px;
     margin: var(--main-margin);
     color: var(--second-text-color);
-    background-image: url(../img/house4.jpeg);
     background-size: cover;
     text-align: center;
     border: 1px solid black;
+}
+.section1 {
+    grid-area: section1;
+    background-image: url(../img/house4.jpeg);
 }
 
 .section2 {
     grid-area: section2;
-    height: 250px;
-    width: 290px;
-    margin: var(--main-margin);
-    color: var(--second-text-color);
     background-image: url(../img/house2.jpeg);
-    background-size: cover;
-    text-align: center;
-    border: 1px solid black;
 }
 
 .section3 {
     grid-area: section3;
-    height: 250px;
-    width: 290px;
-    margin: var(--main-margin);
-    color: var(--second-text-color);
     background-image: url(../img/house3.jpeg);
-    background-size: cover;
-    text-align: center;
-    border: 1px solid black;
 }
 
 .article2 {
@@ -219,16 +208,8 @@ footer {
         font-size: 20px;
     }
     
-    .section1 {
-        height: 180px;
-        width: 250px;
-    }
-    
-    .section2 {
-        height: 180px;
-        width: 250px;
-    }
-    
+    .section1,
+    .section2,
     .section3 {
         height: 180px;
         width: 250px;
@@ -245,16 +226,8 @@ footer {
         width: 768px;
     }
 
-    .section1 {
-        height: 180px;
-        width: 220px;
-    }
-    
-    .section2 {
-        height: 180px;
-        width: 220px;
-    }
-    
+    .section1,
+    .section2,
     .section3 {
         height: 180px;
         width: 220px;
@@ -265,7 +238,7 @@ footer {
 @media screen and (max-width: 768px) {
     .grid-container2 {
         width: 650px;
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: auto;
         grid-template-rows: repeat(7, auto);
         grid-template-areas: 
         "main"
@@ -286,16 +259,8 @@ footer {
         padding: 0 30px;
     }
 
-    .section1 {
-        height: 200px;
-        width: 600px;
-    }
-    
-    .section2 {
-        height: 200px;
-        width: 600px;
-    }
-    
+    .section1,
+    .section2,
     .section3 {
         height: 200px;
         width: 600px;
