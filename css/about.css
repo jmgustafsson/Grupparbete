@@ -438,6 +438,7 @@ footer {
   button:hover {
     background-color:#0a63a3;
 
+  }
 /* MEDIA / MEDIA / MEDIA / MEDIA / MEDIA */
 
 @media screen and (max-width: 1440px) and (min-width: 960px) {
@@ -1023,6 +1024,4 @@ footer {
         grid-row: 4;
         grid-column: 1 / 13;
     }
-}
-  
 }
