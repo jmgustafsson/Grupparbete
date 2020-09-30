@@ -56,23 +56,38 @@ nav a:hover {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     font-size: 18px;
     padding: 10px;
-    text-align: center ;
+    text-align: center;
+    flex-wrap: nowrap;
+    
 }
 #photo1,
 #photo2,
 #photo3,
 #photo4{
     width: 225px;
+    margin: 30px;
     border: 4px ridge steelblue;
 }
 
 
-#formular{
+#kontaktruta {
     border: 4px ridge steelblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    height: 140px;
+    height: fit-content;
+    padding: 0px 30px;
+    margin: 0px 20px;
+    background-color: steelblue;
+    color: white;
+    
+}
+
+#formular{
+    border: 4px ridge steelblue;
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    height: 100px;
     padding: 20px 20px;
-    margin: 20px;
+    margin: 0px 20px;
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -88,8 +103,8 @@ nav a:hover {
 }
 
 #sociala{
-
     border: 4px ridge steelblue;
+    background-color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     height: 20px;
     display: flex;
@@ -133,5 +148,72 @@ footer {
   
 
 
+/* Ipad */
+@media screen and (max-width: 960px) {
+    #porträtt{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    border: 2px ridge steelblue;
+    }
+#photo1,
+#photo2,
+#photo3,
+#photo4{
+    width: 225px;
+    border: 4px ridge steelblue;
+    margin: 20px;
+}
+
+#gruppbilden{
+    height: 370px;
+
+}
+#formular{
+    height: 140px;
+}
+}
 
 
+/* Phone */
+@media screen and (max-width: 768px) {
+    #porträtt{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    border: 2px ridge steelblue;
+    }
+#photo1,
+#photo2,
+#photo3,
+#photo4{
+    width: 225px;
+    border: 4px ridge steelblue;
+    margin: 20px;
+}
+
+#gruppbilden{
+    height: 290px;
+
+}
+h4{
+    display: flex;
+    flex-direction: row;
+}
+
+#formular{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+#sociala{
+    height: 40px;
+
+    background-color: whitesmoke;
+}
+
+}
